@@ -8,13 +8,21 @@
     }
 }
 .text-hero{
-    margin-top: 0;
-    margin-bottom: 0;
+    position: absolute;
+    top: 15px;
     color: #199DB2;
-    margin-left: 1em;
+    margin-left: 1.2em;
+    font-size: 2em;
+
 }
 .text-hero-n{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 1em;
+    position: absolute;
+    margin-left: 2em;
+    font-size: 2em;
+    top: -10px;
+}
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
