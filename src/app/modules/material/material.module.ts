@@ -10,6 +10,9 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonModule } from '@angular/material/button';
 import { TextFieldModule } from '@angular/cdk/text-field';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {NgFor} from '@angular/common';
+import {MatSelectModule} from '@angular/material/select';
+
 
 const MaterialComponents = [
   MatButtonModule,
@@ -20,7 +23,8 @@ const MaterialComponents = [
   MatExpansionModule,
   MatInputModule,
   TextFieldModule,
-  MatSnackBarModule
+  MatSnackBarModule,
+  MatSelectModule
 ]
 
 @NgModule({

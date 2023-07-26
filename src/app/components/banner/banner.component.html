@@ -1,7 +1,21 @@
-<section class="container">
+    <div class="container">
         <h2 class="text">Invierte en <span class="text-hero">tu patrimonio hoy</span></h2>
         <div class="image-container">
-            <img src="assets/images/hero2.jpg" >
+            <img src="assets/images/hero2.jpg">
         </div>
+    </div>
+    <div class="form">
 
-</section>
+        <form>
+            <button mat-flat-button color="accent">Compra</button>
+            <button mat-flat-button color="accent">Renta</button>
+            <mat-form-field>
+                <mat-label>Terrenos</mat-label>
+                <mat-select>
+                    <mat-option *ngFor="let land of lands" [value]="land.name">
+                        {{land.name}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </form>
+    </div>

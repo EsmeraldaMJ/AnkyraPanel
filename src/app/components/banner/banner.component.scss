@@ -31,3 +31,11 @@
 .sectionB {
     position: relative;
 }
+.form {
+    flex: 2;
+    position: relative;
+    width: 100%;
+    max-width: 470px;
+    max-height: 520px;
+    border-radius: 8px;
+  }
