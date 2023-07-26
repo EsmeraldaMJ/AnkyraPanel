@@ -1,5 +1,26 @@
 .stylefooter {
     background-color: var(--secondary);
+    .imgc{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        width: 80px;
+    }
+    .img-footer{
+        width: 239px;
+        height: auto;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    .textF{
+        color: aliceblue;
+    }
+}
+.containerF{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
 }
 
 .button-whats {
