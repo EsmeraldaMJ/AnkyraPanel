@@ -1,3 +1,15 @@
 .stylefooter {
-  background-color: var(--secondary);
+    background-color: var(--secondary);
+}
+
+.button-whats {
+    width: 37px;
+    height: 80px;
+    position: fixed;
+    line-height: 55px;
+    bottom: 25px;
+    right: 25px;
+    .img-t{
+        width: 50px;
+    }
 }
