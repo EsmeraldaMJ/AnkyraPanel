@@ -2,8 +2,13 @@
     position: fixed;
     width: 100%;
     background-color: white;
+    hr {
+        height: 2px;
+        background-color: var(--primary);
+    }
 
     nav {
+        
         .logo {
             display: flex;
             justify-content: space-between;
@@ -15,6 +20,7 @@
             margin-top: 1rem;
             margin-left: 3rem;
         }
+        
     }
 
     .black-nav {
@@ -37,19 +43,13 @@
         }
     }
 
-
-    .mobile-menu {
-        position: fixed;
-        top: 0;
-        right: 100%;
+    .container {
         width: 100%;
-        background: black;
-        color: white;
-        overflow: auto;
     }
-
-    hr {
-        height: 2px;
-        background-color: var(--primary);
+    .mobile-menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 1rem;
     }
 }
