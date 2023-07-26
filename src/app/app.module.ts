@@ -8,6 +8,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { FooterComponent } from './components/footer/footer.component'; 
 import { HomeComponent } from './pages/home/home.component';
 import { FormComponent } from './components/form/form.component';
+import { BussinesComponent } from './components/bussines/bussines.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './modules/material/material.module';
@@ -20,7 +21,8 @@ import { MaterialModule } from './modules/material/material.module';
     BannerComponent,
     FooterComponent,
     HomeComponent,
-    FormComponent
+    FormComponent,
+    BussinesComponent
   ],
   imports: [
     BrowserModule,
