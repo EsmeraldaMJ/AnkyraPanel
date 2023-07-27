@@ -1,0 +1,30 @@
+.titleText{
+    text-align: center;
+}
+.infoText{
+    text-align: center;
+}
+
+
+
+button.mat-unthemed {
+    --mdc-filled-button-container-color: var(--primary);
+    --mdc-filled-button-label-text-color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.image-container {
+    width: 99vw;
+    height: auto;
+
+}

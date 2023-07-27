@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FormComponent } from './components/form/form.component';
 import { BussinesComponent } from './components/bussines/bussines.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BannerTwoComponent } from './components/banner-two/banner-two.component';
 
 import { MaterialModule } from './modules/material/material.module';
 
@@ -22,7 +23,8 @@ import { MaterialModule } from './modules/material/material.module';
     FooterComponent,
     HomeComponent,
     FormComponent,
-    BussinesComponent
+    BussinesComponent,
+    BannerTwoComponent
   ],
   imports: [
     BrowserModule,
