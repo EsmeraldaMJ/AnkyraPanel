@@ -18,15 +18,19 @@
     }
 }
 .containerF{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    align-items: center;
-    margin-left: 16px;
-    .text{
-        color: aliceblue;
-        padding: 0 10px;
-        margin: 0;
-        border-right: 1px solid var(--primary);
-    }
+flex-direction: row;
+align-items: center;
+.text{
+    color: aliceblue;
+    padding: 0 10px;
+    border-right: 1px solid var(--primary);
+    text-align: center;
+}
 }
 
 .button-whats {
@@ -42,4 +46,41 @@
 }
 .textE{
     color: rgba(38, 108, 143, 0.927);
+    text-align: center;
+    margin: 8px 0;
+}
+@media screen and (max-width: 679px) {
+    .containerF {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+        justify-content: center;
+    }
+    
+
+    .textF,
+    .text {
+        font-size: 10px;
+    }
+
+    .textE {
+        font-size: 12px;
+    }
+}
+@media (min-width: 320) {
+    .containerF {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 576px) {
+    .containerF {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerF {
+        max-width: 710px;
+    }
 }
